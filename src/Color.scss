@@ -1,0 +1,26 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #ecb4b4;
+$text-color: rgba(#9b0c43, 30%);
+
+:root {
+    --varient-orange: orange;
+}
+
+.color {
+  background-color: $background-color;
+
+  button {
+    background-color: $primary-color;
+    color: rgb(194, 30, 30);
+    padding: 10px 20px;
+    border: none;
+  }
+  p {
+    color: var(--varient-orange);
+  }
+
+  h1 {
+    color: $secondary-color;
+  }
+}

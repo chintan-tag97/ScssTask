@@ -1,0 +1,22 @@
+
+
+@use 'src/variables' as vars;
+
+.variable {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: vars.$padding;
+
+  .button {
+    background-color: vars.$primary-color;
+    color: white;
+    font-size: vars.$font-size;
+    border: none;
+    padding: vars.$padding;
+    cursor: pointer;
+
+    &:hover {
+      background-color: vars.$secondary-color;
+    }
+  }
+}

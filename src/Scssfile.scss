@@ -1,0 +1,58 @@
+$heading-color: green;
+$heading-size: 36px;
+
+$paragraph-color: orange;
+$paragraph-size: 18px;
+
+$background-color: #f0f0f0;
+
+.container {
+  background-color: $background-color; 
+  padding: 20px; 
+  text-align: center; 
+
+
+h1 {
+  color: $heading-color; 
+  font-size: $heading-size;
+  margin-bottom: 10px; 
+}
+
+p {
+  color: $paragraph-color;
+  font-size: $paragraph-size;
+  margin: 0; 
+}
+}
+
+$myColor: pink;
+.main{
+    text-align: center; 
+
+h1 {
+  $myColor: Blue;
+  color: $myColor;
+ 
+}
+
+p {
+  color: $myColor;
+} 
+}   
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      color: $heading-color; 
+      
+    }
+  }  
